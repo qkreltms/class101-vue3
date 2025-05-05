@@ -1,0 +1,19 @@
+<html>
+  <body>
+    <button id="text">CLICK!</button>
+  </body>
+
+  <script>
+    const element = document.getElementById("text");
+    element.onclick = () => {
+      element.innerHTML = "Hello World";
+      window.alert("Hello World");
+    };
+  </script>
+
+  <style>
+    button {
+      background: "red";
+    }
+  </style>
+</html>
